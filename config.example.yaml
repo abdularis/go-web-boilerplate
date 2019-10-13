@@ -1,0 +1,16 @@
+mode: "development"
+
+server:
+  host: "localhost"
+  port: 3000
+
+database:
+  dialect: "mysql"      # mysql, sqlite3
+  host: "localhost"
+  port: 3306
+  name: "app_db"        # database path in case of using sqlite3
+  user: "root"
+  password: ""
+
+jwt:
+  secret: "random-jwt-secret-string"
